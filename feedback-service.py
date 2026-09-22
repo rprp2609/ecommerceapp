@@ -1,3 +1,5 @@
+import os
+
 # VULNERABLE: Direct string formatting with user input
 user_input = input("Enter a parameter: ")
 command = f"echo Printing {user_input}"
